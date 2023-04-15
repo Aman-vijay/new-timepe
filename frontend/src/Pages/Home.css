@@ -1,0 +1,25 @@
+.heroImage {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    }
+    
+    @media (min-width: 960px) {
+    .heroImage {
+    max-width: none;
+    height: 500px;
+    }
+    }
+    
+    .heroText {
+    margin-bottom: 16px;
+    }
+    
+    .categoryImage {
+    height: 200px;
+    object-fit: cover;
+    }
+    
+    .categoryTitle {
+    margin-bottom: 16px;
+    }

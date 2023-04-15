@@ -1,0 +1,77 @@
+ {/* Hero section */}
+      <Container className={classes.heroContainer}>
+        <Grid container spacing={2} alignItems="center">
+          <Grid item xs={12} md={6}>
+            <Typography variant="h2" component="h1" className={classes.heroText}>
+              Find the Perfect Job for Your Schedule
+            </Typography>
+            <Typography variant="body1" component="p" gutterBottom>
+              Timepe connects volunteers with hosts who need help with a wide range of tasks. From running errands to walking dogs, our platform makes it easy to find work that fits your lifestyle.
+            </Typography>
+            <Button variant="contained" color="primary" href="#" size="large">
+              Browse Jobs
+            </Button>
+          </Grid>
+          <Grid item xs={12} md={6}>
+            <img src="https://via.placeholder.com/500x500" alt="Timepe" className={classes.heroImage} />
+          </Grid>
+        </Grid>
+      </Container>
+
+      {/* Category section */}
+      <Container className={classes.categoryContainer} maxWidth="md">
+        <Typography variant="h4" component="h2" className={classes.categoryTitle}>
+          Popular Categories
+        </Typography>
+        <Grid container spacing={2}>
+          <Grid item xs={12} md={4}>
+            <div className="card">
+              <img src="https://via.placeholder.com/500x300" alt="Category 1" className={classes.categoryImage} />
+              <div className="card-body">
+                <Typography variant="h6" component="h3" gutterBottom>
+                  Category 1
+                </Typography>
+                <Typography variant="body2" component="p" gutterBottom>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper semper mauris, vel lacinia nibh bibendum ac.
+                </Typography>
+                <Button variant="contained" color="primary" href="#">
+                  View Jobs
+                </Button>
+              </div>
+            </div>
+          </Grid>
+          <Grid item xs={12} md={4}>
+            <div className="card">
+              <img src="https://via.placeholder.com/500x300" alt="Category 2" className={classes.categoryImage} />
+              <div className="card-body">
+                <Typography variant="h6" component="h3" gutterBottom>
+                  Category 2
+
+                </Typography>
+                <Typography variant="body2" component="p" gutterBottom>
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper semper mauris, vel lacinia nibac bibendum ac.
+</Typography>
+<Button variant="contained" color="primary" href="#">
+View Jobs
+</Button>
+</div>
+</div>
+</Grid>
+<Grid item xs={12} md={4}>
+<div className="card">
+<img src="https://via.placeholder.com/500x300" alt="Category 3" className={classes.categoryImage} />
+<div className="card-body">
+<Typography variant="h6" component="h3" gutterBottom>
+Category 3
+</Typography>
+<Typography variant="body2" component="p" gutterBottom>
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ullamcorper semper mauris, vel lacinia nibh bibendum ac.
+</Typography>
+<Button variant="contained" color="primary" href="#">
+View Jobs
+</Button>
+</div>
+</div>
+</Grid>
+</Grid>
+</Container>
